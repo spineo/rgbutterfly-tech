@@ -1,0 +1,1368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21064FE41DFEDCAA004B0830 /* AssociationType+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 21064FE31DFEDCAA004B0830 /* AssociationType+CoreDataClass.m */; };
+		21064FFB1DFEDD0A004B0830 /* BodyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 21064FE61DFEDD0A004B0830 /* BodyType.m */; };
+		21064FFC1DFEDD0A004B0830 /* CanvasCoverage+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 21064FE81DFEDD0A004B0830 /* CanvasCoverage+CoreDataClass.m */; };
+		21064FFD1DFEDD0A004B0830 /* Keyword.m in Sources */ = {isa = PBXBuildFile; fileRef = 21064FEA1DFEDD0A004B0830 /* Keyword.m */; };
+		21064FFE1DFEDD0A004B0830 /* MatchAssociations.m in Sources */ = {isa = PBXBuildFile; fileRef = 21064FEC1DFEDD0A004B0830 /* MatchAssociations.m */; };
+		21064FFF1DFEDD0A004B0830 /* MatchAssocKeyword.m in Sources */ = {isa = PBXBuildFile; fileRef = 21064FEE1DFEDD0A004B0830 /* MatchAssocKeyword.m */; };
+		210650001DFEDD0A004B0830 /* MixAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = 21064FF01DFEDD0A004B0830 /* MixAssociation.m */; };
+		210650021DFEDD0A004B0830 /* MixAssocKeyword.m in Sources */ = {isa = PBXBuildFile; fileRef = 21064FF41DFEDD0A004B0830 /* MixAssocKeyword.m */; };
+		210650031DFEDD0A004B0830 /* MixAssocSwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 21064FF61DFEDD0A004B0830 /* MixAssocSwatch.m */; };
+		210650041DFEDD0A004B0830 /* PaintBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = 21064FF81DFEDD0A004B0830 /* PaintBrand.m */; };
+		210650051DFEDD0A004B0830 /* PaintSwatches.m in Sources */ = {isa = PBXBuildFile; fileRef = 21064FFA1DFEDD0A004B0830 /* PaintSwatches.m */; };
+		210650141DFEDD5A004B0830 /* PaintSwatchType.m in Sources */ = {isa = PBXBuildFile; fileRef = 210650071DFEDD5A004B0830 /* PaintSwatchType.m */; };
+		210650151DFEDD5A004B0830 /* PigmentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 210650091DFEDD5A004B0830 /* PigmentType.m */; };
+		210650161DFEDD5A004B0830 /* SubjectiveColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2106500B1DFEDD5A004B0830 /* SubjectiveColor.m */; };
+		210650171DFEDD5A004B0830 /* SwatchKeyword.m in Sources */ = {isa = PBXBuildFile; fileRef = 2106500D1DFEDD5A004B0830 /* SwatchKeyword.m */; };
+		210650181DFEDD5A004B0830 /* TapArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 2106500F1DFEDD5A004B0830 /* TapArea.m */; };
+		210650191DFEDD5A004B0830 /* TapAreaKeyword.m in Sources */ = {isa = PBXBuildFile; fileRef = 210650111DFEDD5A004B0830 /* TapAreaKeyword.m */; };
+		2106501A1DFEDD5A004B0830 /* TapAreaSwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 210650131DFEDD5A004B0830 /* TapAreaSwatch.m */; };
+		210650221DFEDDFF004B0830 /* PaintSwatchesDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = 2106501E1DFEDDFF004B0830 /* PaintSwatchesDiff.m */; };
+		210650231DFEDDFF004B0830 /* PaintSwatchSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 210650201DFEDDFF004B0830 /* PaintSwatchSelection.m */; };
+		210650291DFEDFBB004B0830 /* MatchAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 210650281DFEDFBB004B0830 /* MatchAlgorithm.m */; };
+		2109A0C71DFDDC460076A095 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0C61DFDDC460076A095 /* MainViewController.m */; };
+		2109A0DE1DFDDD6F0076A095 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0C91DFDDD6F0076A095 /* AboutViewController.m */; };
+		2109A0DF1DFDDD6F0076A095 /* AddMixTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0CB1DFDDD6F0076A095 /* AddMixTableViewController.m */; };
+		2109A0E11DFDDD6F0076A095 /* AssocTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0CF1DFDDD6F0076A095 /* AssocTableViewController.m */; };
+		2109A0E21DFDDD6F0076A095 /* DisclaimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0D11DFDDD6F0076A095 /* DisclaimerViewController.m */; };
+		2109A0E31DFDDD6F0076A095 /* MatchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0D31DFDDD6F0076A095 /* MatchTableViewController.m */; };
+		2109A0E41DFDDD6F0076A095 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0D51DFDDD6F0076A095 /* PickerViewController.m */; };
+		2109A0E51DFDDD6F0076A095 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0D71DFDDD6F0076A095 /* SettingsTableViewController.m */; };
+		2109A0E61DFDDD6F0076A095 /* SwatchDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0D91DFDDD6F0076A095 /* SwatchDetailTableViewController.m */; };
+		2109A0E71DFDDD6F0076A095 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0DB1DFDDD6F0076A095 /* ImageViewController.m */; };
+		2109A0E81DFDDD6F0076A095 /* ImageViewNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0DD1DFDDD6F0076A095 /* ImageViewNavigationController.m */; };
+		2109A1021DFDE32C0076A095 /* AlertUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0EC1DFDE32C0076A095 /* AlertUtils.m */; };
+		2109A1041DFDE32C0076A095 /* AppColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0F01DFDE32C0076A095 /* AppColorUtils.m */; };
+		2109A1091DFDE32C0076A095 /* ManagedObjectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0FA1DFDE32C0076A095 /* ManagedObjectUtils.m */; };
+		2109A10B1DFDE32C0076A095 /* PickerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A0FE1DFDE32C0076A095 /* PickerUtils.m */; };
+		2109A10C1DFDE32C0076A095 /* StringObjectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A1001DFDE32C0076A095 /* StringObjectUtils.m */; };
+		2109A1291DFDE4910076A095 /* AssociationType+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A10E1DFDE4910076A095 /* AssociationType+CoreDataProperties.m */; };
+		2109A12A1DFDE4910076A095 /* BodyType+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A1101DFDE4910076A095 /* BodyType+CoreDataProperties.m */; };
+		2109A12B1DFDE4910076A095 /* CanvasCoverage+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A1121DFDE4910076A095 /* CanvasCoverage+CoreDataProperties.m */; };
+		2109A12C1DFDE4910076A095 /* Keyword+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A1141DFDE4910076A095 /* Keyword+CoreDataProperties.m */; };
+		2109A12D1DFDE4910076A095 /* MatchAlgorithm+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A1161DFDE4910076A095 /* MatchAlgorithm+CoreDataProperties.m */; };
+		2109A12E1DFDE4910076A095 /* MatchAssociations+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A1181DFDE4910076A095 /* MatchAssociations+CoreDataProperties.m */; };
+		2109A12F1DFDE4910076A095 /* MatchAssocKeyword+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A11A1DFDE4910076A095 /* MatchAssocKeyword+CoreDataProperties.m */; };
+		2109A1301DFDE4910076A095 /* MixAssocKeyword+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A11C1DFDE4910076A095 /* MixAssocKeyword+CoreDataProperties.m */; };
+		2109A1311DFDE4910076A095 /* PaintBrand+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A11E1DFDE4910076A095 /* PaintBrand+CoreDataProperties.m */; };
+		2109A1321DFDE4910076A095 /* PaintSwatches+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A1201DFDE4910076A095 /* PaintSwatches+CoreDataProperties.m */; };
+		2109A1331DFDE4910076A095 /* PaintSwatchType+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A1221DFDE4910076A095 /* PaintSwatchType+CoreDataProperties.m */; };
+		2109A1341DFDE4910076A095 /* PigmentType+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A1241DFDE4910076A095 /* PigmentType+CoreDataProperties.m */; };
+		2109A1351DFDE4910076A095 /* SubjectiveColor+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A1261DFDE4910076A095 /* SubjectiveColor+CoreDataProperties.m */; };
+		2109A1361DFDE4910076A095 /* TapArea+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A1281DFDE4910076A095 /* TapArea+CoreDataProperties.m */; };
+		2109A1391DFED84F0076A095 /* MatchAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109A1381DFED84F0076A095 /* MatchAlgorithms.m */; };
+		2114BF571E4B5BFB009F4A7D /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2114BF561E4B5BFB009F4A7D /* Root.plist */; };
+		2120CCA41ED9A25500AD79F8 /* RGButterfly_v4.0.63.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2120CCA31ED9A25500AD79F8 /* RGButterfly_v4.0.63.sqlite */; };
+		2120CCA61ED9A26900AD79F8 /* RGButterfly_v4.0.63.md5 in Resources */ = {isa = PBXBuildFile; fileRef = 2120CCA51ED9A26900AD79F8 /* RGButterfly_v4.0.63.md5 */; };
+		2120CCA81ED9A27800AD79F8 /* version.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2120CCA71ED9A27800AD79F8 /* version.txt */; };
+		212F25AB1E33FEE0002466E7 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F25AA1E33FEE0002466E7 /* Reachability.m */; };
+		212F25AE1E33FF13002466E7 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F25AD1E33FF13002466E7 /* NSData+Base64.m */; };
+		212F25B71E354964002466E7 /* FieldUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F25B61E354964002466E7 /* FieldUtils.m */; };
+		212F25C11E363919002466E7 /* ColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F25BC1E363919002466E7 /* ColorUtils.m */; };
+		212F25C21E363919002466E7 /* FileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F25BE1E363919002466E7 /* FileUtils.m */; };
+		212F25C31E363919002466E7 /* HTTPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 212F25C01E363919002466E7 /* HTTPUtils.m */; };
+		213216521E7C728B00744C62 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 213216511E7C728B00744C62 /* README.md */; };
+		2134576C1E7DFC7100CB16E9 /* RGButterfly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 213457671E7DFC7100CB16E9 /* RGButterfly.xcdatamodeld */; };
+		213457781E7F2CB500CB16E9 /* AboutViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134576D1E7F2CB500CB16E9 /* AboutViewControllerTests.swift */; };
+		213457791E7F2CB500CB16E9 /* AddMixTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134576E1E7F2CB500CB16E9 /* AddMixTableViewControllerTests.swift */; };
+		2134577A1E7F2CB500CB16E9 /* AssocTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2134576F1E7F2CB500CB16E9 /* AssocTableViewControllerTests.swift */; };
+		2134577B1E7F2CB500CB16E9 /* DisclaimerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213457701E7F2CB500CB16E9 /* DisclaimerViewControllerTests.swift */; };
+		2134577C1E7F2CB500CB16E9 /* ImageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213457711E7F2CB500CB16E9 /* ImageViewControllerTests.swift */; };
+		2134577D1E7F2CB500CB16E9 /* InitViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213457721E7F2CB500CB16E9 /* InitViewControllerTests.swift */; };
+		2134577E1E7F2CB500CB16E9 /* MainViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213457731E7F2CB500CB16E9 /* MainViewControllerTests.swift */; };
+		2134577F1E7F2CB500CB16E9 /* MatchTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213457741E7F2CB500CB16E9 /* MatchTableViewControllerTests.swift */; };
+		213457801E7F2CB500CB16E9 /* PickerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213457751E7F2CB500CB16E9 /* PickerViewControllerTests.swift */; };
+		213457811E7F2CB500CB16E9 /* SettingsTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213457761E7F2CB500CB16E9 /* SettingsTableViewControllerTests.swift */; };
+		213457821E7F2CB500CB16E9 /* SwatchDetailTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213457771E7F2CB500CB16E9 /* SwatchDetailTableViewControllerTests.swift */; };
+		213457841E7FFF9E00CB16E9 /* DataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213457831E7FFF9E00CB16E9 /* DataModelTests.swift */; };
+		213457871E8015FA00CB16E9 /* RGButterflyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213457861E8015FA00CB16E9 /* RGButterflyUITests.swift */; };
+		21397E691C84832C001C3F05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21397E681C84832C001C3F05 /* AppDelegate.m */; };
+		21397E6B1C84833D001C3F05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21397E6A1C84833D001C3F05 /* main.m */; };
+		21397EDD1C8486C0001C3F05 /* RGButterfly.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 21397EDC1C8486C0001C3F05 /* RGButterfly.entitlements */; };
+		21397EDF1C8486ED001C3F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21397EDE1C8486ED001C3F05 /* Main.storyboard */; };
+		21397EE31C84876D001C3F05 /* GlobalSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 21397EE11C84876D001C3F05 /* GlobalSettings.m */; };
+		21397EE41C84876D001C3F05 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21397EE21C84876D001C3F05 /* Info.plist */; };
+		21397EE61C8487A1001C3F05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21397EE51C8487A1001C3F05 /* Images.xcassets */; };
+		21397EE81C8487C7001C3F05 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21397EE71C8487C7001C3F05 /* Media.xcassets */; };
+		213C93C61E5350A800CB780F /* CustomCollectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 213C93C51E5350A800CB780F /* CustomCollectionTableViewCell.m */; };
+		213E9BBD1EA5A93000C3682D /* AssociationType.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BB41EA5A93000C3682D /* AssociationType.txt */; };
+		213E9BBE1EA5A93000C3682D /* BodyType.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BB51EA5A93000C3682D /* BodyType.txt */; };
+		213E9BBF1EA5A93000C3682D /* CanvasCoverage.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BB61EA5A93000C3682D /* CanvasCoverage.txt */; };
+		213E9BC01EA5A93000C3682D /* ListingType.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BB71EA5A93000C3682D /* ListingType.txt */; };
+		213E9BC11EA5A93000C3682D /* MatchAlgorithm.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BB81EA5A93000C3682D /* MatchAlgorithm.txt */; };
+		213E9BC21EA5A93000C3682D /* PaintBrand.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BB91EA5A93000C3682D /* PaintBrand.txt */; };
+		213E9BC31EA5A93000C3682D /* PaintSwatchType.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BBA1EA5A93000C3682D /* PaintSwatchType.txt */; };
+		213E9BC41EA5A93000C3682D /* PigmentType.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BBB1EA5A93000C3682D /* PigmentType.txt */; };
+		213E9BC51EA5A93000C3682D /* SubjectiveColor.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BBC1EA5A93000C3682D /* SubjectiveColor.txt */; };
+		213E9BE01EAB8D5F00C3682D /* GenericBlue.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BD61EAB8D5F00C3682D /* GenericBlue.txt */; };
+		213E9BE11EAB8D5F00C3682D /* GenericBrown.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BD71EAB8D5F00C3682D /* GenericBrown.txt */; };
+		213E9BE21EAB8D5F00C3682D /* GenericGreen.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BD81EAB8D5F00C3682D /* GenericGreen.txt */; };
+		213E9BE31EAB8D5F00C3682D /* GenericGrey.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BD91EAB8D5F00C3682D /* GenericGrey.txt */; };
+		213E9BE41EAB8D5F00C3682D /* GenericMetallic.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BDA1EAB8D5F00C3682D /* GenericMetallic.txt */; };
+		213E9BE51EAB8D5F00C3682D /* GenericOrange.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BDB1EAB8D5F00C3682D /* GenericOrange.txt */; };
+		213E9BE61EAB8D5F00C3682D /* GenericRed.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BDC1EAB8D5F00C3682D /* GenericRed.txt */; };
+		213E9BE71EAB8D5F00C3682D /* GenericViolet.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BDD1EAB8D5F00C3682D /* GenericViolet.txt */; };
+		213E9BE81EAB8D5F00C3682D /* GenericWhite.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BDE1EAB8D5F00C3682D /* GenericWhite.txt */; };
+		213E9BE91EAB8D5F00C3682D /* GenericYellow.txt in Resources */ = {isa = PBXBuildFile; fileRef = 213E9BDF1EAB8D5F00C3682D /* GenericYellow.txt */; };
+		213E9BEB1EAD4F5E00C3682D /* BarButtonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 213E9BEA1EAD4F5E00C3682D /* BarButtonUtils.m */; };
+		215A8BAB1E6C3C3E0052B28F /* RGButterflyBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A8BAA1E6C3C3E0052B28F /* RGButterflyBaseTests.swift */; };
+		216044D31E3D3A9F007387DB /* MatchColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 216044D21E3D3A9F007387DB /* MatchColors.m */; };
+		2176DD161E3A338800812B19 /* ButtonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2176DD151E3A338800812B19 /* ButtonUtils.m */; };
+		2176DD1C1E3B934A00812B19 /* AppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2176DD1B1E3B934A00812B19 /* AppUtils.m */; };
+		2176DD1F1E3B95DC00812B19 /* GenericUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2176DD1E1E3B95DC00812B19 /* GenericUtils.m */; };
+		2187D8AA1EE78335004C9386 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2187D8A91EE78335004C9386 /* ColorViewController.m */; };
+		2192F5611DF3185500AAFE01 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 2192F5601DF3185500AAFE01 /* README */; };
+		2194D8FC1E893BBB00960912 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2194D8FB1E893BBB00960912 /* CloudKit.framework */; };
+		219C477B1E22A93B00DADF0F /* InitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219C477A1E22A93B00DADF0F /* InitViewController.m */; };
+		21CC4FAC1C0114DE0018E088 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21CC4FAB1C0114DE0018E088 /* Settings.bundle */; };
+		21CDE4CD1E65BE1D00172D94 /* CoreDataUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CDE4CC1E65BE1D00172D94 /* CoreDataUtils.m */; };
+		21E079DF1E46702E004B77C8 /* Authtoken.txt in Resources */ = {isa = PBXBuildFile; fileRef = 21E079DE1E46702E004B77C8 /* Authtoken.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21A197F61E4F832E00686E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210C895F1A9F6C440003CC85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210C89661A9F6C440003CC85;
+			remoteInfo = RGButterfly;
+		};
+		21A263CA1E4CB105004B075C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210C895F1A9F6C440003CC85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210C89661A9F6C440003CC85;
+			remoteInfo = RGButterfly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21064FE21DFEDCAA004B0830 /* AssociationType+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AssociationType+CoreDataClass.h"; path = "ManagedObject/AssociationType+CoreDataClass.h"; sourceTree = "<group>"; };
+		21064FE31DFEDCAA004B0830 /* AssociationType+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AssociationType+CoreDataClass.m"; path = "ManagedObject/AssociationType+CoreDataClass.m"; sourceTree = "<group>"; };
+		21064FE51DFEDD0A004B0830 /* BodyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BodyType.h; path = ManagedObject/BodyType.h; sourceTree = "<group>"; };
+		21064FE61DFEDD0A004B0830 /* BodyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BodyType.m; path = ManagedObject/BodyType.m; sourceTree = "<group>"; };
+		21064FE71DFEDD0A004B0830 /* CanvasCoverage+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CanvasCoverage+CoreDataClass.h"; path = "ManagedObject/CanvasCoverage+CoreDataClass.h"; sourceTree = "<group>"; };
+		21064FE81DFEDD0A004B0830 /* CanvasCoverage+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CanvasCoverage+CoreDataClass.m"; path = "ManagedObject/CanvasCoverage+CoreDataClass.m"; sourceTree = "<group>"; };
+		21064FE91DFEDD0A004B0830 /* Keyword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keyword.h; path = ManagedObject/Keyword.h; sourceTree = "<group>"; };
+		21064FEA1DFEDD0A004B0830 /* Keyword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Keyword.m; path = ManagedObject/Keyword.m; sourceTree = "<group>"; };
+		21064FEB1DFEDD0A004B0830 /* MatchAssociations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchAssociations.h; path = ManagedObject/MatchAssociations.h; sourceTree = "<group>"; };
+		21064FEC1DFEDD0A004B0830 /* MatchAssociations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchAssociations.m; path = ManagedObject/MatchAssociations.m; sourceTree = "<group>"; };
+		21064FED1DFEDD0A004B0830 /* MatchAssocKeyword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchAssocKeyword.h; path = ManagedObject/MatchAssocKeyword.h; sourceTree = "<group>"; };
+		21064FEE1DFEDD0A004B0830 /* MatchAssocKeyword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchAssocKeyword.m; path = ManagedObject/MatchAssocKeyword.m; sourceTree = "<group>"; };
+		21064FEF1DFEDD0A004B0830 /* MixAssociation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MixAssociation.h; path = ManagedObject/MixAssociation.h; sourceTree = "<group>"; };
+		21064FF01DFEDD0A004B0830 /* MixAssociation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MixAssociation.m; path = ManagedObject/MixAssociation.m; sourceTree = "<group>"; };
+		21064FF31DFEDD0A004B0830 /* MixAssocKeyword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MixAssocKeyword.h; path = ManagedObject/MixAssocKeyword.h; sourceTree = "<group>"; };
+		21064FF41DFEDD0A004B0830 /* MixAssocKeyword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MixAssocKeyword.m; path = ManagedObject/MixAssocKeyword.m; sourceTree = "<group>"; };
+		21064FF51DFEDD0A004B0830 /* MixAssocSwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MixAssocSwatch.h; path = ManagedObject/MixAssocSwatch.h; sourceTree = "<group>"; };
+		21064FF61DFEDD0A004B0830 /* MixAssocSwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MixAssocSwatch.m; path = ManagedObject/MixAssocSwatch.m; sourceTree = "<group>"; };
+		21064FF71DFEDD0A004B0830 /* PaintBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintBrand.h; path = ManagedObject/PaintBrand.h; sourceTree = "<group>"; };
+		21064FF81DFEDD0A004B0830 /* PaintBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintBrand.m; path = ManagedObject/PaintBrand.m; sourceTree = "<group>"; };
+		21064FF91DFEDD0A004B0830 /* PaintSwatches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintSwatches.h; path = ManagedObject/PaintSwatches.h; sourceTree = "<group>"; };
+		21064FFA1DFEDD0A004B0830 /* PaintSwatches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintSwatches.m; path = ManagedObject/PaintSwatches.m; sourceTree = "<group>"; };
+		210650061DFEDD5A004B0830 /* PaintSwatchType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintSwatchType.h; path = ManagedObject/PaintSwatchType.h; sourceTree = "<group>"; };
+		210650071DFEDD5A004B0830 /* PaintSwatchType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintSwatchType.m; path = ManagedObject/PaintSwatchType.m; sourceTree = "<group>"; };
+		210650081DFEDD5A004B0830 /* PigmentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PigmentType.h; path = ManagedObject/PigmentType.h; sourceTree = "<group>"; };
+		210650091DFEDD5A004B0830 /* PigmentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PigmentType.m; path = ManagedObject/PigmentType.m; sourceTree = "<group>"; };
+		2106500A1DFEDD5A004B0830 /* SubjectiveColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubjectiveColor.h; path = ManagedObject/SubjectiveColor.h; sourceTree = "<group>"; };
+		2106500B1DFEDD5A004B0830 /* SubjectiveColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubjectiveColor.m; path = ManagedObject/SubjectiveColor.m; sourceTree = "<group>"; };
+		2106500C1DFEDD5A004B0830 /* SwatchKeyword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwatchKeyword.h; path = ManagedObject/SwatchKeyword.h; sourceTree = "<group>"; };
+		2106500D1DFEDD5A004B0830 /* SwatchKeyword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwatchKeyword.m; path = ManagedObject/SwatchKeyword.m; sourceTree = "<group>"; };
+		2106500E1DFEDD5A004B0830 /* TapArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapArea.h; path = ManagedObject/TapArea.h; sourceTree = "<group>"; };
+		2106500F1DFEDD5A004B0830 /* TapArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TapArea.m; path = ManagedObject/TapArea.m; sourceTree = "<group>"; };
+		210650101DFEDD5A004B0830 /* TapAreaKeyword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapAreaKeyword.h; path = ManagedObject/TapAreaKeyword.h; sourceTree = "<group>"; };
+		210650111DFEDD5A004B0830 /* TapAreaKeyword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TapAreaKeyword.m; path = ManagedObject/TapAreaKeyword.m; sourceTree = "<group>"; };
+		210650121DFEDD5A004B0830 /* TapAreaSwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TapAreaSwatch.h; path = ManagedObject/TapAreaSwatch.h; sourceTree = "<group>"; };
+		210650131DFEDD5A004B0830 /* TapAreaSwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TapAreaSwatch.m; path = ManagedObject/TapAreaSwatch.m; sourceTree = "<group>"; };
+		2106501D1DFEDDFF004B0830 /* PaintSwatchesDiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintSwatchesDiff.h; path = Other/PaintSwatchesDiff.h; sourceTree = "<group>"; };
+		2106501E1DFEDDFF004B0830 /* PaintSwatchesDiff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintSwatchesDiff.m; path = Other/PaintSwatchesDiff.m; sourceTree = "<group>"; };
+		2106501F1DFEDDFF004B0830 /* PaintSwatchSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaintSwatchSelection.h; path = Other/PaintSwatchSelection.h; sourceTree = "<group>"; };
+		210650201DFEDDFF004B0830 /* PaintSwatchSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaintSwatchSelection.m; path = Other/PaintSwatchSelection.m; sourceTree = "<group>"; };
+		210650271DFEDFBB004B0830 /* MatchAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchAlgorithm.h; path = ManagedObject/MatchAlgorithm.h; sourceTree = "<group>"; };
+		210650281DFEDFBB004B0830 /* MatchAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchAlgorithm.m; path = ManagedObject/MatchAlgorithm.m; sourceTree = "<group>"; };
+		2109A0C51DFDDC460076A095 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Controllers/MainViewController.h; sourceTree = "<group>"; };
+		2109A0C61DFDDC460076A095 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Controllers/MainViewController.m; sourceTree = "<group>"; };
+		2109A0C81DFDDD6F0076A095 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = Controllers/AboutViewController.h; sourceTree = "<group>"; };
+		2109A0C91DFDDD6F0076A095 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = Controllers/AboutViewController.m; sourceTree = "<group>"; };
+		2109A0CA1DFDDD6F0076A095 /* AddMixTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddMixTableViewController.h; path = Controllers/AddMixTableViewController.h; sourceTree = "<group>"; };
+		2109A0CB1DFDDD6F0076A095 /* AddMixTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddMixTableViewController.m; path = Controllers/AddMixTableViewController.m; sourceTree = "<group>"; };
+		2109A0CE1DFDDD6F0076A095 /* AssocTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AssocTableViewController.h; path = Controllers/AssocTableViewController.h; sourceTree = "<group>"; };
+		2109A0CF1DFDDD6F0076A095 /* AssocTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AssocTableViewController.m; path = Controllers/AssocTableViewController.m; sourceTree = "<group>"; };
+		2109A0D01DFDDD6F0076A095 /* DisclaimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisclaimerViewController.h; path = Controllers/DisclaimerViewController.h; sourceTree = "<group>"; };
+		2109A0D11DFDDD6F0076A095 /* DisclaimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisclaimerViewController.m; path = Controllers/DisclaimerViewController.m; sourceTree = "<group>"; };
+		2109A0D21DFDDD6F0076A095 /* MatchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchTableViewController.h; path = Controllers/MatchTableViewController.h; sourceTree = "<group>"; };
+		2109A0D31DFDDD6F0076A095 /* MatchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchTableViewController.m; path = Controllers/MatchTableViewController.m; sourceTree = "<group>"; };
+		2109A0D41DFDDD6F0076A095 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerViewController.h; path = Controllers/PickerViewController.h; sourceTree = "<group>"; };
+		2109A0D51DFDDD6F0076A095 /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerViewController.m; path = Controllers/PickerViewController.m; sourceTree = "<group>"; };
+		2109A0D61DFDDD6F0076A095 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsTableViewController.h; path = Controllers/SettingsTableViewController.h; sourceTree = "<group>"; };
+		2109A0D71DFDDD6F0076A095 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsTableViewController.m; path = Controllers/SettingsTableViewController.m; sourceTree = "<group>"; };
+		2109A0D81DFDDD6F0076A095 /* SwatchDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwatchDetailTableViewController.h; path = Controllers/SwatchDetailTableViewController.h; sourceTree = "<group>"; };
+		2109A0D91DFDDD6F0076A095 /* SwatchDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwatchDetailTableViewController.m; path = Controllers/SwatchDetailTableViewController.m; sourceTree = "<group>"; };
+		2109A0DA1DFDDD6F0076A095 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = Controllers/ImageViewController.h; sourceTree = "<group>"; };
+		2109A0DB1DFDDD6F0076A095 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = Controllers/ImageViewController.m; sourceTree = "<group>"; };
+		2109A0DC1DFDDD6F0076A095 /* ImageViewNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewNavigationController.h; path = Controllers/ImageViewNavigationController.h; sourceTree = "<group>"; };
+		2109A0DD1DFDDD6F0076A095 /* ImageViewNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewNavigationController.m; path = Controllers/ImageViewNavigationController.m; sourceTree = "<group>"; };
+		2109A0EB1DFDE32C0076A095 /* AlertUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertUtils.h; path = Utilities/AlertUtils.h; sourceTree = "<group>"; };
+		2109A0EC1DFDE32C0076A095 /* AlertUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertUtils.m; path = Utilities/AlertUtils.m; sourceTree = "<group>"; };
+		2109A0EF1DFDE32C0076A095 /* AppColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppColorUtils.h; path = Utilities/AppColorUtils.h; sourceTree = "<group>"; };
+		2109A0F01DFDE32C0076A095 /* AppColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppColorUtils.m; path = Utilities/AppColorUtils.m; sourceTree = "<group>"; };
+		2109A0F91DFDE32C0076A095 /* ManagedObjectUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ManagedObjectUtils.h; path = Utilities/ManagedObjectUtils.h; sourceTree = "<group>"; };
+		2109A0FA1DFDE32C0076A095 /* ManagedObjectUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ManagedObjectUtils.m; path = Utilities/ManagedObjectUtils.m; sourceTree = "<group>"; };
+		2109A0FD1DFDE32C0076A095 /* PickerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerUtils.h; path = Utilities/PickerUtils.h; sourceTree = "<group>"; };
+		2109A0FE1DFDE32C0076A095 /* PickerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerUtils.m; path = Utilities/PickerUtils.m; sourceTree = "<group>"; };
+		2109A0FF1DFDE32C0076A095 /* StringObjectUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringObjectUtils.h; path = Utilities/StringObjectUtils.h; sourceTree = "<group>"; };
+		2109A1001DFDE32C0076A095 /* StringObjectUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringObjectUtils.m; path = Utilities/StringObjectUtils.m; sourceTree = "<group>"; };
+		2109A10D1DFDE4910076A095 /* AssociationType+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AssociationType+CoreDataProperties.h"; path = "ManagedObject/AssociationType+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A10E1DFDE4910076A095 /* AssociationType+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AssociationType+CoreDataProperties.m"; path = "ManagedObject/AssociationType+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A10F1DFDE4910076A095 /* BodyType+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "BodyType+CoreDataProperties.h"; path = "ManagedObject/BodyType+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A1101DFDE4910076A095 /* BodyType+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "BodyType+CoreDataProperties.m"; path = "ManagedObject/BodyType+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A1111DFDE4910076A095 /* CanvasCoverage+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CanvasCoverage+CoreDataProperties.h"; path = "ManagedObject/CanvasCoverage+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A1121DFDE4910076A095 /* CanvasCoverage+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CanvasCoverage+CoreDataProperties.m"; path = "ManagedObject/CanvasCoverage+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A1131DFDE4910076A095 /* Keyword+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Keyword+CoreDataProperties.h"; path = "ManagedObject/Keyword+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A1141DFDE4910076A095 /* Keyword+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Keyword+CoreDataProperties.m"; path = "ManagedObject/Keyword+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A1151DFDE4910076A095 /* MatchAlgorithm+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MatchAlgorithm+CoreDataProperties.h"; path = "ManagedObject/MatchAlgorithm+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A1161DFDE4910076A095 /* MatchAlgorithm+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MatchAlgorithm+CoreDataProperties.m"; path = "ManagedObject/MatchAlgorithm+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A1171DFDE4910076A095 /* MatchAssociations+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MatchAssociations+CoreDataProperties.h"; path = "ManagedObject/MatchAssociations+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A1181DFDE4910076A095 /* MatchAssociations+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MatchAssociations+CoreDataProperties.m"; path = "ManagedObject/MatchAssociations+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A1191DFDE4910076A095 /* MatchAssocKeyword+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MatchAssocKeyword+CoreDataProperties.h"; path = "ManagedObject/MatchAssocKeyword+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A11A1DFDE4910076A095 /* MatchAssocKeyword+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MatchAssocKeyword+CoreDataProperties.m"; path = "ManagedObject/MatchAssocKeyword+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A11B1DFDE4910076A095 /* MixAssocKeyword+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MixAssocKeyword+CoreDataProperties.h"; path = "ManagedObject/MixAssocKeyword+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A11C1DFDE4910076A095 /* MixAssocKeyword+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MixAssocKeyword+CoreDataProperties.m"; path = "ManagedObject/MixAssocKeyword+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A11D1DFDE4910076A095 /* PaintBrand+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PaintBrand+CoreDataProperties.h"; path = "ManagedObject/PaintBrand+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A11E1DFDE4910076A095 /* PaintBrand+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PaintBrand+CoreDataProperties.m"; path = "ManagedObject/PaintBrand+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A11F1DFDE4910076A095 /* PaintSwatches+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PaintSwatches+CoreDataProperties.h"; path = "ManagedObject/PaintSwatches+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A1201DFDE4910076A095 /* PaintSwatches+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PaintSwatches+CoreDataProperties.m"; path = "ManagedObject/PaintSwatches+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A1211DFDE4910076A095 /* PaintSwatchType+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PaintSwatchType+CoreDataProperties.h"; path = "ManagedObject/PaintSwatchType+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A1221DFDE4910076A095 /* PaintSwatchType+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PaintSwatchType+CoreDataProperties.m"; path = "ManagedObject/PaintSwatchType+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A1231DFDE4910076A095 /* PigmentType+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PigmentType+CoreDataProperties.h"; path = "ManagedObject/PigmentType+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A1241DFDE4910076A095 /* PigmentType+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PigmentType+CoreDataProperties.m"; path = "ManagedObject/PigmentType+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A1251DFDE4910076A095 /* SubjectiveColor+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SubjectiveColor+CoreDataProperties.h"; path = "ManagedObject/SubjectiveColor+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A1261DFDE4910076A095 /* SubjectiveColor+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SubjectiveColor+CoreDataProperties.m"; path = "ManagedObject/SubjectiveColor+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A1271DFDE4910076A095 /* TapArea+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TapArea+CoreDataProperties.h"; path = "ManagedObject/TapArea+CoreDataProperties.h"; sourceTree = "<group>"; };
+		2109A1281DFDE4910076A095 /* TapArea+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TapArea+CoreDataProperties.m"; path = "ManagedObject/TapArea+CoreDataProperties.m"; sourceTree = "<group>"; };
+		2109A1371DFED84F0076A095 /* MatchAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchAlgorithms.h; path = Algorithms/MatchAlgorithms.h; sourceTree = "<group>"; };
+		2109A1381DFED84F0076A095 /* MatchAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchAlgorithms.m; path = Algorithms/MatchAlgorithms.m; sourceTree = "<group>"; };
+		210C89671A9F6C440003CC85 /* RGButterfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGButterfly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2114BF561E4B5BFB009F4A7D /* Root.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Root.plist; path = Settings.bundle/Root.plist; sourceTree = "<group>"; };
+		2120CCA31ED9A25500AD79F8 /* RGButterfly_v4.0.63.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = RGButterfly_v4.0.63.sqlite; path = ../databases/RGButterfly/RGButterfly_v4.0.63.sqlite; sourceTree = "<group>"; };
+		2120CCA51ED9A26900AD79F8 /* RGButterfly_v4.0.63.md5 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RGButterfly_v4.0.63.md5; path = ../databases/RGButterfly/RGButterfly_v4.0.63.md5; sourceTree = "<group>"; };
+		2120CCA71ED9A27800AD79F8 /* version.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = version.txt; path = ../databases/RGButterfly/version.txt; sourceTree = "<group>"; };
+		212F25A91E33FEE0002466E7 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "../ios-external-utilities/Reachability/Reachability.h"; sourceTree = "<group>"; };
+		212F25AA1E33FEE0002466E7 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../ios-external-utilities/Reachability/Reachability.m"; sourceTree = "<group>"; };
+		212F25AC1E33FF13002466E7 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "../ios-external-utilities/NSData+Base64/NSData+Base64.h"; sourceTree = "<group>"; };
+		212F25AD1E33FF13002466E7 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "../ios-external-utilities/NSData+Base64/NSData+Base64.m"; sourceTree = "<group>"; };
+		212F25B51E3548EC002466E7 /* FieldUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldUtils.h; sourceTree = "<group>"; };
+		212F25B61E354964002466E7 /* FieldUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldUtils.m; sourceTree = "<group>"; };
+		212F25BB1E363919002466E7 /* ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorUtils.h; path = "../ios-utilities/ColorUtils.h"; sourceTree = "<group>"; };
+		212F25BC1E363919002466E7 /* ColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorUtils.m; path = "../ios-utilities/ColorUtils.m"; sourceTree = "<group>"; };
+		212F25BD1E363919002466E7 /* FileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileUtils.h; path = "../ios-utilities/FileUtils.h"; sourceTree = "<group>"; };
+		212F25BE1E363919002466E7 /* FileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileUtils.m; path = "../ios-utilities/FileUtils.m"; sourceTree = "<group>"; };
+		212F25BF1E363919002466E7 /* HTTPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPUtils.h; path = "../ios-utilities/HTTPUtils.h"; sourceTree = "<group>"; };
+		212F25C01E363919002466E7 /* HTTPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPUtils.m; path = "../ios-utilities/HTTPUtils.m"; sourceTree = "<group>"; };
+		213216511E7C728B00744C62 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../rgbutterfly-tests/README.md"; sourceTree = "<group>"; };
+		213216541E7C7AAF00744C62 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		213457681E7DFC7100CB16E9 /* AcrylicsColorPicker v4.0.59.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "AcrylicsColorPicker v4.0.59.xcdatamodel"; sourceTree = "<group>"; };
+		213457691E7DFC7100CB16E9 /* AcrylicsColorPicker v4.0.61.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "AcrylicsColorPicker v4.0.61.xcdatamodel"; sourceTree = "<group>"; };
+		2134576A1E7DFC7100CB16E9 /* AcrylicsColorPicker v4.0.63.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "AcrylicsColorPicker v4.0.63.xcdatamodel"; sourceTree = "<group>"; };
+		2134576B1E7DFC7100CB16E9 /* RGButterfly_v4.0.63.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RGButterfly_v4.0.63.xcdatamodel; sourceTree = "<group>"; };
+		2134576D1E7F2CB500CB16E9 /* AboutViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewControllerTests.swift; path = "../../rgbutterfly-tests/Controllers/AboutViewControllerTests.swift"; sourceTree = "<group>"; };
+		2134576E1E7F2CB500CB16E9 /* AddMixTableViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddMixTableViewControllerTests.swift; path = "../../rgbutterfly-tests/Controllers/AddMixTableViewControllerTests.swift"; sourceTree = "<group>"; };
+		2134576F1E7F2CB500CB16E9 /* AssocTableViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AssocTableViewControllerTests.swift; path = "../../rgbutterfly-tests/Controllers/AssocTableViewControllerTests.swift"; sourceTree = "<group>"; };
+		213457701E7F2CB500CB16E9 /* DisclaimerViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisclaimerViewControllerTests.swift; path = "../../rgbutterfly-tests/Controllers/DisclaimerViewControllerTests.swift"; sourceTree = "<group>"; };
+		213457711E7F2CB500CB16E9 /* ImageViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewControllerTests.swift; path = "../../rgbutterfly-tests/Controllers/ImageViewControllerTests.swift"; sourceTree = "<group>"; };
+		213457721E7F2CB500CB16E9 /* InitViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InitViewControllerTests.swift; path = "../../rgbutterfly-tests/Controllers/InitViewControllerTests.swift"; sourceTree = "<group>"; };
+		213457731E7F2CB500CB16E9 /* MainViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewControllerTests.swift; path = "../../rgbutterfly-tests/Controllers/MainViewControllerTests.swift"; sourceTree = "<group>"; };
+		213457741E7F2CB500CB16E9 /* MatchTableViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchTableViewControllerTests.swift; path = "../../rgbutterfly-tests/Controllers/MatchTableViewControllerTests.swift"; sourceTree = "<group>"; };
+		213457751E7F2CB500CB16E9 /* PickerViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PickerViewControllerTests.swift; path = "../../rgbutterfly-tests/Controllers/PickerViewControllerTests.swift"; sourceTree = "<group>"; };
+		213457761E7F2CB500CB16E9 /* SettingsTableViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsTableViewControllerTests.swift; path = "../../rgbutterfly-tests/Controllers/SettingsTableViewControllerTests.swift"; sourceTree = "<group>"; };
+		213457771E7F2CB500CB16E9 /* SwatchDetailTableViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwatchDetailTableViewControllerTests.swift; path = "../../rgbutterfly-tests/Controllers/SwatchDetailTableViewControllerTests.swift"; sourceTree = "<group>"; };
+		213457831E7FFF9E00CB16E9 /* DataModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataModelTests.swift; path = "../../rgbutterfly-tests/Model/DataModelTests.swift"; sourceTree = "<group>"; };
+		213457851E8015FA00CB16E9 /* RGButterflyUITests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RGButterflyUITests-Bridging-Header.h"; path = "../../rgbutterfly-tests/UITests/RGButterflyUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		213457861E8015FA00CB16E9 /* RGButterflyUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RGButterflyUITests.swift; path = "../../rgbutterfly-tests/UITests/RGButterflyUITests.swift"; sourceTree = "<group>"; };
+		21397E671C84832C001C3F05 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21397E681C84832C001C3F05 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21397E6A1C84833D001C3F05 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21397EDC1C8486C0001C3F05 /* RGButterfly.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = RGButterfly.entitlements; sourceTree = "<group>"; };
+		21397EDE1C8486ED001C3F05 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		21397EE01C84876D001C3F05 /* GlobalSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalSettings.h; sourceTree = "<group>"; };
+		21397EE11C84876D001C3F05 /* GlobalSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalSettings.m; sourceTree = "<group>"; };
+		21397EE21C84876D001C3F05 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21397EE51C8487A1001C3F05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		21397EE71C8487C7001C3F05 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		213C93C41E5350A800CB780F /* CustomCollectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCollectionTableViewCell.h; path = "../ios-custom-cells/CustomCollectionTableViewCell.h"; sourceTree = "<group>"; };
+		213C93C51E5350A800CB780F /* CustomCollectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCollectionTableViewCell.m; path = "../ios-custom-cells/CustomCollectionTableViewCell.m"; sourceTree = "<group>"; };
+		213E9BB41EA5A93000C3682D /* AssociationType.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AssociationType.txt; path = Data/Dictionary/AssociationType.txt; sourceTree = "<group>"; };
+		213E9BB51EA5A93000C3682D /* BodyType.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BodyType.txt; path = Data/Dictionary/BodyType.txt; sourceTree = "<group>"; };
+		213E9BB61EA5A93000C3682D /* CanvasCoverage.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CanvasCoverage.txt; path = Data/Dictionary/CanvasCoverage.txt; sourceTree = "<group>"; };
+		213E9BB71EA5A93000C3682D /* ListingType.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ListingType.txt; path = Data/Dictionary/ListingType.txt; sourceTree = "<group>"; };
+		213E9BB81EA5A93000C3682D /* MatchAlgorithm.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MatchAlgorithm.txt; path = Data/Dictionary/MatchAlgorithm.txt; sourceTree = "<group>"; };
+		213E9BB91EA5A93000C3682D /* PaintBrand.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PaintBrand.txt; path = Data/Dictionary/PaintBrand.txt; sourceTree = "<group>"; };
+		213E9BBA1EA5A93000C3682D /* PaintSwatchType.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PaintSwatchType.txt; path = Data/Dictionary/PaintSwatchType.txt; sourceTree = "<group>"; };
+		213E9BBB1EA5A93000C3682D /* PigmentType.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PigmentType.txt; path = Data/Dictionary/PigmentType.txt; sourceTree = "<group>"; };
+		213E9BBC1EA5A93000C3682D /* SubjectiveColor.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SubjectiveColor.txt; path = Data/Dictionary/SubjectiveColor.txt; sourceTree = "<group>"; };
+		213E9BD61EAB8D5F00C3682D /* GenericBlue.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GenericBlue.txt; path = Data/Generics/GenericBlue.txt; sourceTree = "<group>"; };
+		213E9BD71EAB8D5F00C3682D /* GenericBrown.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GenericBrown.txt; path = Data/Generics/GenericBrown.txt; sourceTree = "<group>"; };
+		213E9BD81EAB8D5F00C3682D /* GenericGreen.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GenericGreen.txt; path = Data/Generics/GenericGreen.txt; sourceTree = "<group>"; };
+		213E9BD91EAB8D5F00C3682D /* GenericGrey.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GenericGrey.txt; path = Data/Generics/GenericGrey.txt; sourceTree = "<group>"; };
+		213E9BDA1EAB8D5F00C3682D /* GenericMetallic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GenericMetallic.txt; path = Data/Generics/GenericMetallic.txt; sourceTree = "<group>"; };
+		213E9BDB1EAB8D5F00C3682D /* GenericOrange.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GenericOrange.txt; path = Data/Generics/GenericOrange.txt; sourceTree = "<group>"; };
+		213E9BDC1EAB8D5F00C3682D /* GenericRed.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GenericRed.txt; path = Data/Generics/GenericRed.txt; sourceTree = "<group>"; };
+		213E9BDD1EAB8D5F00C3682D /* GenericViolet.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GenericViolet.txt; path = Data/Generics/GenericViolet.txt; sourceTree = "<group>"; };
+		213E9BDE1EAB8D5F00C3682D /* GenericWhite.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GenericWhite.txt; path = Data/Generics/GenericWhite.txt; sourceTree = "<group>"; };
+		213E9BDF1EAB8D5F00C3682D /* GenericYellow.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GenericYellow.txt; path = Data/Generics/GenericYellow.txt; sourceTree = "<group>"; };
+		213E9BEA1EAD4F5E00C3682D /* BarButtonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BarButtonUtils.m; path = "../ios-utilities/BarButtonUtils.m"; sourceTree = "<group>"; };
+		215A8BAA1E6C3C3E0052B28F /* RGButterflyBaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RGButterflyBaseTests.swift; path = "../../rgbutterfly-tests/RGButterflyBaseTests.swift"; sourceTree = "<group>"; };
+		215A8BAC1E6C3C4F0052B28F /* RGButterflyTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RGButterflyTests-Bridging-Header.h"; path = "../../rgbutterfly-tests/RGButterflyTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		216044D11E3D3A9F007387DB /* MatchColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchColors.h; path = "../ios-algorithms/MatchColors.h"; sourceTree = "<group>"; };
+		216044D21E3D3A9F007387DB /* MatchColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchColors.m; path = "../ios-algorithms/MatchColors.m"; sourceTree = "<group>"; };
+		2176DD141E3A338800812B19 /* ButtonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonUtils.h; path = Utilities/ButtonUtils.h; sourceTree = "<group>"; };
+		2176DD151E3A338800812B19 /* ButtonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonUtils.m; path = Utilities/ButtonUtils.m; sourceTree = "<group>"; };
+		2176DD171E3A387800812B19 /* BarButtonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BarButtonUtils.h; path = "../ios-utilities/BarButtonUtils.h"; sourceTree = "<group>"; };
+		2176DD1A1E3B934A00812B19 /* AppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppUtils.h; path = Utilities/AppUtils.h; sourceTree = "<group>"; };
+		2176DD1B1E3B934A00812B19 /* AppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppUtils.m; path = Utilities/AppUtils.m; sourceTree = "<group>"; };
+		2176DD1D1E3B95DC00812B19 /* GenericUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericUtils.h; path = "../ios-utilities/GenericUtils.h"; sourceTree = "<group>"; };
+		2176DD1E1E3B95DC00812B19 /* GenericUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenericUtils.m; path = "../ios-utilities/GenericUtils.m"; sourceTree = "<group>"; };
+		2187D8A81EE78335004C9386 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
+		2187D8A91EE78335004C9386 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
+		2192F5601DF3185500AAFE01 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		2194D8FB1E893BBB00960912 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		219C47791E22A93B00DADF0F /* InitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InitViewController.h; path = Controllers/InitViewController.h; sourceTree = "<group>"; };
+		219C477A1E22A93B00DADF0F /* InitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InitViewController.m; path = Controllers/InitViewController.m; sourceTree = "<group>"; };
+		21A197F11E4F832E00686E86 /* RGButterflyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGButterflyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A197F51E4F832E00686E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21A263C51E4CB105004B075C /* RGButterflyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGButterflyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21A263C91E4CB105004B075C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CC4FAB1C0114DE0018E088 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		21CDE4CB1E65BE1D00172D94 /* CoreDataUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataUtils.h; path = "../ios-utilities/CoreDataUtils.h"; sourceTree = "<group>"; };
+		21CDE4CC1E65BE1D00172D94 /* CoreDataUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataUtils.m; path = "../ios-utilities/CoreDataUtils.m"; sourceTree = "<group>"; };
+		21D344661E4F518300B92CF7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		21E079DE1E46702E004B77C8 /* Authtoken.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Authtoken.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		210C89641A9F6C440003CC85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2194D8FC1E893BBB00960912 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A197EE1E4F832E00686E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A263C21E4CB105004B075C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2108C5011C8209C600DD7B9E /* RGButterfly */ = {
+			isa = PBXGroup;
+			children = (
+				2114BF561E4B5BFB009F4A7D /* Root.plist */,
+				213216531E7C7A7C00744C62 /* SupportingFiles */,
+				21397EE21C84876D001C3F05 /* Info.plist */,
+				21E079DE1E46702E004B77C8 /* Authtoken.txt */,
+				2137956B1E05B5C700CD5308 /* ExternalUtilities */,
+				2108C5ED1C82108200DD7B9E /* Algorithms */,
+				2108C5EC1C820DF000DD7B9E /* Delegates & Main */,
+				2108C5EB1C820DA400DD7B9E /* Custom */,
+				2108C5EA1C820D1B00DD7B9E /* Other */,
+				2108C5E91C820D0000DD7B9E /* Data */,
+				2108C5E81C820CCA00DD7B9E /* Utilities */,
+				2108C5E71C820C9C00DD7B9E /* ManagedObject */,
+				2108C5E61C820C5800DD7B9E /* Controllers */,
+				21397EDC1C8486C0001C3F05 /* RGButterfly.entitlements */,
+				213457671E7DFC7100CB16E9 /* RGButterfly.xcdatamodeld */,
+				21397EDE1C8486ED001C3F05 /* Main.storyboard */,
+				21397EE11C84876D001C3F05 /* GlobalSettings.m */,
+				21397EE51C8487A1001C3F05 /* Images.xcassets */,
+				21397EE71C8487C7001C3F05 /* Media.xcassets */,
+				21397EE01C84876D001C3F05 /* GlobalSettings.h */,
+				2192F5601DF3185500AAFE01 /* README */,
+			);
+			name = RGButterfly;
+			sourceTree = "<group>";
+		};
+		2108C5E61C820C5800DD7B9E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				219C47791E22A93B00DADF0F /* InitViewController.h */,
+				219C477A1E22A93B00DADF0F /* InitViewController.m */,
+				2109A0C81DFDDD6F0076A095 /* AboutViewController.h */,
+				2109A0C91DFDDD6F0076A095 /* AboutViewController.m */,
+				2109A0CA1DFDDD6F0076A095 /* AddMixTableViewController.h */,
+				2109A0CB1DFDDD6F0076A095 /* AddMixTableViewController.m */,
+				2109A0CE1DFDDD6F0076A095 /* AssocTableViewController.h */,
+				2109A0CF1DFDDD6F0076A095 /* AssocTableViewController.m */,
+				2109A0D01DFDDD6F0076A095 /* DisclaimerViewController.h */,
+				2109A0D11DFDDD6F0076A095 /* DisclaimerViewController.m */,
+				2109A0D21DFDDD6F0076A095 /* MatchTableViewController.h */,
+				2109A0D31DFDDD6F0076A095 /* MatchTableViewController.m */,
+				2109A0D41DFDDD6F0076A095 /* PickerViewController.h */,
+				2109A0D51DFDDD6F0076A095 /* PickerViewController.m */,
+				2109A0D61DFDDD6F0076A095 /* SettingsTableViewController.h */,
+				2109A0D71DFDDD6F0076A095 /* SettingsTableViewController.m */,
+				2109A0D81DFDDD6F0076A095 /* SwatchDetailTableViewController.h */,
+				2109A0D91DFDDD6F0076A095 /* SwatchDetailTableViewController.m */,
+				2109A0DA1DFDDD6F0076A095 /* ImageViewController.h */,
+				2109A0DB1DFDDD6F0076A095 /* ImageViewController.m */,
+				2109A0DC1DFDDD6F0076A095 /* ImageViewNavigationController.h */,
+				2109A0DD1DFDDD6F0076A095 /* ImageViewNavigationController.m */,
+				2109A0C51DFDDC460076A095 /* MainViewController.h */,
+				2109A0C61DFDDC460076A095 /* MainViewController.m */,
+				2187D8A81EE78335004C9386 /* ColorViewController.h */,
+				2187D8A91EE78335004C9386 /* ColorViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2108C5E71C820C9C00DD7B9E /* ManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				210650271DFEDFBB004B0830 /* MatchAlgorithm.h */,
+				210650281DFEDFBB004B0830 /* MatchAlgorithm.m */,
+				210650061DFEDD5A004B0830 /* PaintSwatchType.h */,
+				210650071DFEDD5A004B0830 /* PaintSwatchType.m */,
+				210650081DFEDD5A004B0830 /* PigmentType.h */,
+				210650091DFEDD5A004B0830 /* PigmentType.m */,
+				2106500A1DFEDD5A004B0830 /* SubjectiveColor.h */,
+				2106500B1DFEDD5A004B0830 /* SubjectiveColor.m */,
+				2106500D1DFEDD5A004B0830 /* SwatchKeyword.m */,
+				2106500C1DFEDD5A004B0830 /* SwatchKeyword.h */,
+				2106500E1DFEDD5A004B0830 /* TapArea.h */,
+				2106500F1DFEDD5A004B0830 /* TapArea.m */,
+				210650101DFEDD5A004B0830 /* TapAreaKeyword.h */,
+				210650111DFEDD5A004B0830 /* TapAreaKeyword.m */,
+				210650121DFEDD5A004B0830 /* TapAreaSwatch.h */,
+				210650131DFEDD5A004B0830 /* TapAreaSwatch.m */,
+				21064FE51DFEDD0A004B0830 /* BodyType.h */,
+				21064FE61DFEDD0A004B0830 /* BodyType.m */,
+				21064FE71DFEDD0A004B0830 /* CanvasCoverage+CoreDataClass.h */,
+				21064FE81DFEDD0A004B0830 /* CanvasCoverage+CoreDataClass.m */,
+				21064FE91DFEDD0A004B0830 /* Keyword.h */,
+				21064FEA1DFEDD0A004B0830 /* Keyword.m */,
+				21064FEB1DFEDD0A004B0830 /* MatchAssociations.h */,
+				21064FEC1DFEDD0A004B0830 /* MatchAssociations.m */,
+				21064FED1DFEDD0A004B0830 /* MatchAssocKeyword.h */,
+				21064FEE1DFEDD0A004B0830 /* MatchAssocKeyword.m */,
+				21064FEF1DFEDD0A004B0830 /* MixAssociation.h */,
+				21064FF01DFEDD0A004B0830 /* MixAssociation.m */,
+				21064FF31DFEDD0A004B0830 /* MixAssocKeyword.h */,
+				21064FF41DFEDD0A004B0830 /* MixAssocKeyword.m */,
+				21064FF51DFEDD0A004B0830 /* MixAssocSwatch.h */,
+				21064FF61DFEDD0A004B0830 /* MixAssocSwatch.m */,
+				21064FF71DFEDD0A004B0830 /* PaintBrand.h */,
+				21064FF81DFEDD0A004B0830 /* PaintBrand.m */,
+				21064FF91DFEDD0A004B0830 /* PaintSwatches.h */,
+				21064FFA1DFEDD0A004B0830 /* PaintSwatches.m */,
+				21064FE21DFEDCAA004B0830 /* AssociationType+CoreDataClass.h */,
+				21064FE31DFEDCAA004B0830 /* AssociationType+CoreDataClass.m */,
+				2109A10D1DFDE4910076A095 /* AssociationType+CoreDataProperties.h */,
+				2109A10E1DFDE4910076A095 /* AssociationType+CoreDataProperties.m */,
+				2109A10F1DFDE4910076A095 /* BodyType+CoreDataProperties.h */,
+				2109A1101DFDE4910076A095 /* BodyType+CoreDataProperties.m */,
+				2109A1111DFDE4910076A095 /* CanvasCoverage+CoreDataProperties.h */,
+				2109A1121DFDE4910076A095 /* CanvasCoverage+CoreDataProperties.m */,
+				2109A1131DFDE4910076A095 /* Keyword+CoreDataProperties.h */,
+				2109A1141DFDE4910076A095 /* Keyword+CoreDataProperties.m */,
+				2109A1151DFDE4910076A095 /* MatchAlgorithm+CoreDataProperties.h */,
+				2109A1161DFDE4910076A095 /* MatchAlgorithm+CoreDataProperties.m */,
+				2109A1171DFDE4910076A095 /* MatchAssociations+CoreDataProperties.h */,
+				2109A1181DFDE4910076A095 /* MatchAssociations+CoreDataProperties.m */,
+				2109A1191DFDE4910076A095 /* MatchAssocKeyword+CoreDataProperties.h */,
+				2109A11A1DFDE4910076A095 /* MatchAssocKeyword+CoreDataProperties.m */,
+				2109A11B1DFDE4910076A095 /* MixAssocKeyword+CoreDataProperties.h */,
+				2109A11C1DFDE4910076A095 /* MixAssocKeyword+CoreDataProperties.m */,
+				2109A11D1DFDE4910076A095 /* PaintBrand+CoreDataProperties.h */,
+				2109A11E1DFDE4910076A095 /* PaintBrand+CoreDataProperties.m */,
+				2109A11F1DFDE4910076A095 /* PaintSwatches+CoreDataProperties.h */,
+				2109A1201DFDE4910076A095 /* PaintSwatches+CoreDataProperties.m */,
+				2109A1211DFDE4910076A095 /* PaintSwatchType+CoreDataProperties.h */,
+				2109A1221DFDE4910076A095 /* PaintSwatchType+CoreDataProperties.m */,
+				2109A1231DFDE4910076A095 /* PigmentType+CoreDataProperties.h */,
+				2109A1241DFDE4910076A095 /* PigmentType+CoreDataProperties.m */,
+				2109A1251DFDE4910076A095 /* SubjectiveColor+CoreDataProperties.h */,
+				2109A1261DFDE4910076A095 /* SubjectiveColor+CoreDataProperties.m */,
+				2109A1271DFDE4910076A095 /* TapArea+CoreDataProperties.h */,
+				2109A1281DFDE4910076A095 /* TapArea+CoreDataProperties.m */,
+			);
+			name = ManagedObject;
+			sourceTree = "<group>";
+		};
+		2108C5E81C820CCA00DD7B9E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				213E9BEA1EAD4F5E00C3682D /* BarButtonUtils.m */,
+				21CDE4CB1E65BE1D00172D94 /* CoreDataUtils.h */,
+				21CDE4CC1E65BE1D00172D94 /* CoreDataUtils.m */,
+				2176DD1D1E3B95DC00812B19 /* GenericUtils.h */,
+				2176DD1E1E3B95DC00812B19 /* GenericUtils.m */,
+				2176DD171E3A387800812B19 /* BarButtonUtils.h */,
+				212F25BB1E363919002466E7 /* ColorUtils.h */,
+				212F25BC1E363919002466E7 /* ColorUtils.m */,
+				212F25BD1E363919002466E7 /* FileUtils.h */,
+				212F25BE1E363919002466E7 /* FileUtils.m */,
+				212F25BF1E363919002466E7 /* HTTPUtils.h */,
+				212F25C01E363919002466E7 /* HTTPUtils.m */,
+				2109A0EB1DFDE32C0076A095 /* AlertUtils.h */,
+				2109A0EC1DFDE32C0076A095 /* AlertUtils.m */,
+				2109A0EF1DFDE32C0076A095 /* AppColorUtils.h */,
+				2109A0F01DFDE32C0076A095 /* AppColorUtils.m */,
+				2109A0F91DFDE32C0076A095 /* ManagedObjectUtils.h */,
+				2109A0FA1DFDE32C0076A095 /* ManagedObjectUtils.m */,
+				212F25B61E354964002466E7 /* FieldUtils.m */,
+				2109A0FD1DFDE32C0076A095 /* PickerUtils.h */,
+				2109A0FE1DFDE32C0076A095 /* PickerUtils.m */,
+				2109A0FF1DFDE32C0076A095 /* StringObjectUtils.h */,
+				2109A1001DFDE32C0076A095 /* StringObjectUtils.m */,
+				212F25B51E3548EC002466E7 /* FieldUtils.h */,
+				2176DD141E3A338800812B19 /* ButtonUtils.h */,
+				2176DD151E3A338800812B19 /* ButtonUtils.m */,
+				2176DD1A1E3B934A00812B19 /* AppUtils.h */,
+				2176DD1B1E3B934A00812B19 /* AppUtils.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		2108C5E91C820D0000DD7B9E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2120CCA21ED9A17500AD79F8 /* Database */,
+				213E9BB31EA5A8BE00C3682D /* Dictionary */,
+				213E9BAC1EA3F51400C3682D /* Generics */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		2108C5EA1C820D1B00DD7B9E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2106501D1DFEDDFF004B0830 /* PaintSwatchesDiff.h */,
+				2106501E1DFEDDFF004B0830 /* PaintSwatchesDiff.m */,
+				2106501F1DFEDDFF004B0830 /* PaintSwatchSelection.h */,
+				210650201DFEDDFF004B0830 /* PaintSwatchSelection.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		2108C5EB1C820DA400DD7B9E /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				213C93C41E5350A800CB780F /* CustomCollectionTableViewCell.h */,
+				213C93C51E5350A800CB780F /* CustomCollectionTableViewCell.m */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		2108C5EC1C820DF000DD7B9E /* Delegates & Main */ = {
+			isa = PBXGroup;
+			children = (
+				21397E671C84832C001C3F05 /* AppDelegate.h */,
+				21397E681C84832C001C3F05 /* AppDelegate.m */,
+				21397E6A1C84833D001C3F05 /* main.m */,
+			);
+			name = "Delegates & Main";
+			sourceTree = "<group>";
+		};
+		2108C5ED1C82108200DD7B9E /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				216044D11E3D3A9F007387DB /* MatchColors.h */,
+				216044D21E3D3A9F007387DB /* MatchColors.m */,
+				2109A1371DFED84F0076A095 /* MatchAlgorithms.h */,
+				2109A1381DFED84F0076A095 /* MatchAlgorithms.m */,
+			);
+			name = Algorithms;
+			sourceTree = "<group>";
+		};
+		210C895E1A9F6C440003CC85 = {
+			isa = PBXGroup;
+			children = (
+				2108C5011C8209C600DD7B9E /* RGButterfly */,
+				21CC4FAB1C0114DE0018E088 /* Settings.bundle */,
+				21A263C61E4CB105004B075C /* RGButterflyTests */,
+				21A197F21E4F832E00686E86 /* RGButterflyUITests */,
+				210C89681A9F6C440003CC85 /* Products */,
+				21D344651E4F518300B92CF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		210C89681A9F6C440003CC85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				210C89671A9F6C440003CC85 /* RGButterfly.app */,
+				21A263C51E4CB105004B075C /* RGButterflyTests.xctest */,
+				21A197F11E4F832E00686E86 /* RGButterflyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2120CCA21ED9A17500AD79F8 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				2120CCA71ED9A27800AD79F8 /* version.txt */,
+				2120CCA51ED9A26900AD79F8 /* RGButterfly_v4.0.63.md5 */,
+				2120CCA31ED9A25500AD79F8 /* RGButterfly_v4.0.63.sqlite */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		213216531E7C7A7C00744C62 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				213216541E7C7AAF00744C62 /* PrefixHeader.pch */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		2137956B1E05B5C700CD5308 /* ExternalUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				212F25AC1E33FF13002466E7 /* NSData+Base64.h */,
+				212F25AD1E33FF13002466E7 /* NSData+Base64.m */,
+				212F25A91E33FEE0002466E7 /* Reachability.h */,
+				212F25AA1E33FEE0002466E7 /* Reachability.m */,
+			);
+			name = ExternalUtilities;
+			sourceTree = "<group>";
+		};
+		213E9BAC1EA3F51400C3682D /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				213E9BD61EAB8D5F00C3682D /* GenericBlue.txt */,
+				213E9BD71EAB8D5F00C3682D /* GenericBrown.txt */,
+				213E9BD81EAB8D5F00C3682D /* GenericGreen.txt */,
+				213E9BD91EAB8D5F00C3682D /* GenericGrey.txt */,
+				213E9BDA1EAB8D5F00C3682D /* GenericMetallic.txt */,
+				213E9BDB1EAB8D5F00C3682D /* GenericOrange.txt */,
+				213E9BDC1EAB8D5F00C3682D /* GenericRed.txt */,
+				213E9BDD1EAB8D5F00C3682D /* GenericViolet.txt */,
+				213E9BDE1EAB8D5F00C3682D /* GenericWhite.txt */,
+				213E9BDF1EAB8D5F00C3682D /* GenericYellow.txt */,
+			);
+			name = Generics;
+			sourceTree = "<group>";
+		};
+		213E9BB31EA5A8BE00C3682D /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				213E9BB41EA5A93000C3682D /* AssociationType.txt */,
+				213E9BB51EA5A93000C3682D /* BodyType.txt */,
+				213E9BB61EA5A93000C3682D /* CanvasCoverage.txt */,
+				213E9BB71EA5A93000C3682D /* ListingType.txt */,
+				213E9BB81EA5A93000C3682D /* MatchAlgorithm.txt */,
+				213E9BB91EA5A93000C3682D /* PaintBrand.txt */,
+				213E9BBA1EA5A93000C3682D /* PaintSwatchType.txt */,
+				213E9BBB1EA5A93000C3682D /* PigmentType.txt */,
+				213E9BBC1EA5A93000C3682D /* SubjectiveColor.txt */,
+			);
+			name = Dictionary;
+			sourceTree = "<group>";
+		};
+		21A197F21E4F832E00686E86 /* RGButterflyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				213457851E8015FA00CB16E9 /* RGButterflyUITests-Bridging-Header.h */,
+				213457861E8015FA00CB16E9 /* RGButterflyUITests.swift */,
+				21A197F51E4F832E00686E86 /* Info.plist */,
+			);
+			path = RGButterflyUITests;
+			sourceTree = "<group>";
+		};
+		21A263C61E4CB105004B075C /* RGButterflyTests */ = {
+			isa = PBXGroup;
+			children = (
+				21C11FCE1E7D555800C02A06 /* Controller */,
+				21C11FCD1E7D554500C02A06 /* Model */,
+				213216511E7C728B00744C62 /* README.md */,
+				215A8BAC1E6C3C4F0052B28F /* RGButterflyTests-Bridging-Header.h */,
+				215A8BAA1E6C3C3E0052B28F /* RGButterflyBaseTests.swift */,
+				21A263C91E4CB105004B075C /* Info.plist */,
+			);
+			path = RGButterflyTests;
+			sourceTree = "<group>";
+		};
+		21C11FCD1E7D554500C02A06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				213457831E7FFF9E00CB16E9 /* DataModelTests.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		21C11FCE1E7D555800C02A06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2134576D1E7F2CB500CB16E9 /* AboutViewControllerTests.swift */,
+				2134576F1E7F2CB500CB16E9 /* AssocTableViewControllerTests.swift */,
+				213457701E7F2CB500CB16E9 /* DisclaimerViewControllerTests.swift */,
+				213457711E7F2CB500CB16E9 /* ImageViewControllerTests.swift */,
+				2134576E1E7F2CB500CB16E9 /* AddMixTableViewControllerTests.swift */,
+				213457721E7F2CB500CB16E9 /* InitViewControllerTests.swift */,
+				213457731E7F2CB500CB16E9 /* MainViewControllerTests.swift */,
+				213457741E7F2CB500CB16E9 /* MatchTableViewControllerTests.swift */,
+				213457751E7F2CB500CB16E9 /* PickerViewControllerTests.swift */,
+				213457761E7F2CB500CB16E9 /* SettingsTableViewControllerTests.swift */,
+				213457771E7F2CB500CB16E9 /* SwatchDetailTableViewControllerTests.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		21D344651E4F518300B92CF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2194D8FB1E893BBB00960912 /* CloudKit.framework */,
+				21D344661E4F518300B92CF7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		210C89661A9F6C440003CC85 /* RGButterfly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210C898A1A9F6C440003CC85 /* Build configuration list for PBXNativeTarget "RGButterfly" */;
+			buildPhases = (
+				210C89631A9F6C440003CC85 /* Sources */,
+				210C89641A9F6C440003CC85 /* Frameworks */,
+				210C89651A9F6C440003CC85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RGButterfly;
+			productName = AcrylicsColorPicker;
+			productReference = 210C89671A9F6C440003CC85 /* RGButterfly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21A197F01E4F832E00686E86 /* RGButterflyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A197F81E4F832E00686E86 /* Build configuration list for PBXNativeTarget "RGButterflyUITests" */;
+			buildPhases = (
+				21A197ED1E4F832E00686E86 /* Sources */,
+				21A197EE1E4F832E00686E86 /* Frameworks */,
+				21A197EF1E4F832E00686E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A197F71E4F832E00686E86 /* PBXTargetDependency */,
+			);
+			name = RGButterflyUITests;
+			productName = RGButterflyUITests;
+			productReference = 21A197F11E4F832E00686E86 /* RGButterflyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		21A263C41E4CB105004B075C /* RGButterflyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A263CC1E4CB105004B075C /* Build configuration list for PBXNativeTarget "RGButterflyTests" */;
+			buildPhases = (
+				21A263C11E4CB105004B075C /* Sources */,
+				21A263C21E4CB105004B075C /* Frameworks */,
+				21A263C31E4CB105004B075C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21A263CB1E4CB105004B075C /* PBXTargetDependency */,
+			);
+			name = RGButterflyTests;
+			productName = RGButterflyTests;
+			productReference = 21A263C51E4CB105004B075C /* RGButterflyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		210C895F1A9F6C440003CC85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					1,
+				);
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Stuart Pineo";
+				TargetAttributes = {
+					210C89661A9F6C440003CC85 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = PEWN4D59QB;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					21A197F01E4F832E00686E86 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PEWN4D59QB;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 210C89661A9F6C440003CC85;
+					};
+					21A263C41E4CB105004B075C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PEWN4D59QB;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 210C89661A9F6C440003CC85;
+					};
+				};
+			};
+			buildConfigurationList = 210C89621A9F6C440003CC85 /* Build configuration list for PBXProject "RGButterfly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 210C895E1A9F6C440003CC85;
+			productRefGroup = 210C89681A9F6C440003CC85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				210C89661A9F6C440003CC85 /* RGButterfly */,
+				21A263C41E4CB105004B075C /* RGButterflyTests */,
+				21A197F01E4F832E00686E86 /* RGButterflyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		210C89651A9F6C440003CC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2120CCA41ED9A25500AD79F8 /* RGButterfly_v4.0.63.sqlite in Resources */,
+				213E9BE51EAB8D5F00C3682D /* GenericOrange.txt in Resources */,
+				213E9BC31EA5A93000C3682D /* PaintSwatchType.txt in Resources */,
+				21397EE61C8487A1001C3F05 /* Images.xcassets in Resources */,
+				213E9BE81EAB8D5F00C3682D /* GenericWhite.txt in Resources */,
+				213E9BBD1EA5A93000C3682D /* AssociationType.txt in Resources */,
+				213E9BE11EAB8D5F00C3682D /* GenericBrown.txt in Resources */,
+				213E9BC41EA5A93000C3682D /* PigmentType.txt in Resources */,
+				2114BF571E4B5BFB009F4A7D /* Root.plist in Resources */,
+				213E9BE21EAB8D5F00C3682D /* GenericGreen.txt in Resources */,
+				213E9BE41EAB8D5F00C3682D /* GenericMetallic.txt in Resources */,
+				2192F5611DF3185500AAFE01 /* README in Resources */,
+				213E9BC21EA5A93000C3682D /* PaintBrand.txt in Resources */,
+				21397EDF1C8486ED001C3F05 /* Main.storyboard in Resources */,
+				213E9BBF1EA5A93000C3682D /* CanvasCoverage.txt in Resources */,
+				213E9BC01EA5A93000C3682D /* ListingType.txt in Resources */,
+				21397EE41C84876D001C3F05 /* Info.plist in Resources */,
+				213E9BE91EAB8D5F00C3682D /* GenericYellow.txt in Resources */,
+				21397EDD1C8486C0001C3F05 /* RGButterfly.entitlements in Resources */,
+				213E9BBE1EA5A93000C3682D /* BodyType.txt in Resources */,
+				213E9BE31EAB8D5F00C3682D /* GenericGrey.txt in Resources */,
+				21397EE81C8487C7001C3F05 /* Media.xcassets in Resources */,
+				21E079DF1E46702E004B77C8 /* Authtoken.txt in Resources */,
+				2120CCA61ED9A26900AD79F8 /* RGButterfly_v4.0.63.md5 in Resources */,
+				213E9BC51EA5A93000C3682D /* SubjectiveColor.txt in Resources */,
+				21CC4FAC1C0114DE0018E088 /* Settings.bundle in Resources */,
+				213E9BE61EAB8D5F00C3682D /* GenericRed.txt in Resources */,
+				213E9BE01EAB8D5F00C3682D /* GenericBlue.txt in Resources */,
+				213E9BC11EA5A93000C3682D /* MatchAlgorithm.txt in Resources */,
+				2120CCA81ED9A27800AD79F8 /* version.txt in Resources */,
+				213E9BE71EAB8D5F00C3682D /* GenericViolet.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A197EF1E4F832E00686E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A263C31E4CB105004B075C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210C89631A9F6C440003CC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21064FFB1DFEDD0A004B0830 /* BodyType.m in Sources */,
+				2109A0E21DFDDD6F0076A095 /* DisclaimerViewController.m in Sources */,
+				210650291DFEDFBB004B0830 /* MatchAlgorithm.m in Sources */,
+				212F25C11E363919002466E7 /* ColorUtils.m in Sources */,
+				210650001DFEDD0A004B0830 /* MixAssociation.m in Sources */,
+				210650141DFEDD5A004B0830 /* PaintSwatchType.m in Sources */,
+				2109A12A1DFDE4910076A095 /* BodyType+CoreDataProperties.m in Sources */,
+				2109A1291DFDE4910076A095 /* AssociationType+CoreDataProperties.m in Sources */,
+				21064FE41DFEDCAA004B0830 /* AssociationType+CoreDataClass.m in Sources */,
+				2109A10C1DFDE32C0076A095 /* StringObjectUtils.m in Sources */,
+				2109A0E81DFDDD6F0076A095 /* ImageViewNavigationController.m in Sources */,
+				2109A0E31DFDDD6F0076A095 /* MatchTableViewController.m in Sources */,
+				21064FFD1DFEDD0A004B0830 /* Keyword.m in Sources */,
+				210650191DFEDD5A004B0830 /* TapAreaKeyword.m in Sources */,
+				2109A1351DFDE4910076A095 /* SubjectiveColor+CoreDataProperties.m in Sources */,
+				2109A1341DFDE4910076A095 /* PigmentType+CoreDataProperties.m in Sources */,
+				2176DD161E3A338800812B19 /* ButtonUtils.m in Sources */,
+				2109A1301DFDE4910076A095 /* MixAssocKeyword+CoreDataProperties.m in Sources */,
+				2109A0DF1DFDDD6F0076A095 /* AddMixTableViewController.m in Sources */,
+				212F25AE1E33FF13002466E7 /* NSData+Base64.m in Sources */,
+				210650041DFEDD0A004B0830 /* PaintBrand.m in Sources */,
+				2106501A1DFEDD5A004B0830 /* TapAreaSwatch.m in Sources */,
+				210650181DFEDD5A004B0830 /* TapArea.m in Sources */,
+				2109A1391DFED84F0076A095 /* MatchAlgorithms.m in Sources */,
+				212F25C21E363919002466E7 /* FileUtils.m in Sources */,
+				2176DD1F1E3B95DC00812B19 /* GenericUtils.m in Sources */,
+				2109A12C1DFDE4910076A095 /* Keyword+CoreDataProperties.m in Sources */,
+				210650231DFEDDFF004B0830 /* PaintSwatchSelection.m in Sources */,
+				210650171DFEDD5A004B0830 /* SwatchKeyword.m in Sources */,
+				2109A1331DFDE4910076A095 /* PaintSwatchType+CoreDataProperties.m in Sources */,
+				2109A1041DFDE32C0076A095 /* AppColorUtils.m in Sources */,
+				210650051DFEDD0A004B0830 /* PaintSwatches.m in Sources */,
+				2134576C1E7DFC7100CB16E9 /* RGButterfly.xcdatamodeld in Sources */,
+				210650151DFEDD5A004B0830 /* PigmentType.m in Sources */,
+				21397E6B1C84833D001C3F05 /* main.m in Sources */,
+				2109A12F1DFDE4910076A095 /* MatchAssocKeyword+CoreDataProperties.m in Sources */,
+				2109A12E1DFDE4910076A095 /* MatchAssociations+CoreDataProperties.m in Sources */,
+				21064FFC1DFEDD0A004B0830 /* CanvasCoverage+CoreDataClass.m in Sources */,
+				2109A0E11DFDDD6F0076A095 /* AssocTableViewController.m in Sources */,
+				21397E691C84832C001C3F05 /* AppDelegate.m in Sources */,
+				210650221DFEDDFF004B0830 /* PaintSwatchesDiff.m in Sources */,
+				2187D8AA1EE78335004C9386 /* ColorViewController.m in Sources */,
+				216044D31E3D3A9F007387DB /* MatchColors.m in Sources */,
+				21064FFF1DFEDD0A004B0830 /* MatchAssocKeyword.m in Sources */,
+				210650031DFEDD0A004B0830 /* MixAssocSwatch.m in Sources */,
+				21CDE4CD1E65BE1D00172D94 /* CoreDataUtils.m in Sources */,
+				210650021DFEDD0A004B0830 /* MixAssocKeyword.m in Sources */,
+				2109A12B1DFDE4910076A095 /* CanvasCoverage+CoreDataProperties.m in Sources */,
+				2109A0DE1DFDDD6F0076A095 /* AboutViewController.m in Sources */,
+				2109A1311DFDE4910076A095 /* PaintBrand+CoreDataProperties.m in Sources */,
+				2109A0E71DFDDD6F0076A095 /* ImageViewController.m in Sources */,
+				212F25AB1E33FEE0002466E7 /* Reachability.m in Sources */,
+				2109A1361DFDE4910076A095 /* TapArea+CoreDataProperties.m in Sources */,
+				2109A0E51DFDDD6F0076A095 /* SettingsTableViewController.m in Sources */,
+				2109A1321DFDE4910076A095 /* PaintSwatches+CoreDataProperties.m in Sources */,
+				212F25C31E363919002466E7 /* HTTPUtils.m in Sources */,
+				213E9BEB1EAD4F5E00C3682D /* BarButtonUtils.m in Sources */,
+				2109A1091DFDE32C0076A095 /* ManagedObjectUtils.m in Sources */,
+				2109A1021DFDE32C0076A095 /* AlertUtils.m in Sources */,
+				2109A0E41DFDDD6F0076A095 /* PickerViewController.m in Sources */,
+				2109A10B1DFDE32C0076A095 /* PickerUtils.m in Sources */,
+				212F25B71E354964002466E7 /* FieldUtils.m in Sources */,
+				210650161DFEDD5A004B0830 /* SubjectiveColor.m in Sources */,
+				2109A0E61DFDDD6F0076A095 /* SwatchDetailTableViewController.m in Sources */,
+				219C477B1E22A93B00DADF0F /* InitViewController.m in Sources */,
+				21064FFE1DFEDD0A004B0830 /* MatchAssociations.m in Sources */,
+				213C93C61E5350A800CB780F /* CustomCollectionTableViewCell.m in Sources */,
+				2109A12D1DFDE4910076A095 /* MatchAlgorithm+CoreDataProperties.m in Sources */,
+				2176DD1C1E3B934A00812B19 /* AppUtils.m in Sources */,
+				2109A0C71DFDDC460076A095 /* MainViewController.m in Sources */,
+				21397EE31C84876D001C3F05 /* GlobalSettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A197ED1E4F832E00686E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213457871E8015FA00CB16E9 /* RGButterflyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A263C11E4CB105004B075C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213457791E7F2CB500CB16E9 /* AddMixTableViewControllerTests.swift in Sources */,
+				213457811E7F2CB500CB16E9 /* SettingsTableViewControllerTests.swift in Sources */,
+				213457801E7F2CB500CB16E9 /* PickerViewControllerTests.swift in Sources */,
+				213457821E7F2CB500CB16E9 /* SwatchDetailTableViewControllerTests.swift in Sources */,
+				2134577F1E7F2CB500CB16E9 /* MatchTableViewControllerTests.swift in Sources */,
+				2134577B1E7F2CB500CB16E9 /* DisclaimerViewControllerTests.swift in Sources */,
+				213216521E7C728B00744C62 /* README.md in Sources */,
+				2134577A1E7F2CB500CB16E9 /* AssocTableViewControllerTests.swift in Sources */,
+				213457841E7FFF9E00CB16E9 /* DataModelTests.swift in Sources */,
+				2134577C1E7F2CB500CB16E9 /* ImageViewControllerTests.swift in Sources */,
+				215A8BAB1E6C3C3E0052B28F /* RGButterflyBaseTests.swift in Sources */,
+				2134577D1E7F2CB500CB16E9 /* InitViewControllerTests.swift in Sources */,
+				213457781E7F2CB500CB16E9 /* AboutViewControllerTests.swift in Sources */,
+				2134577E1E7F2CB500CB16E9 /* MainViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21A197F71E4F832E00686E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210C89661A9F6C440003CC85 /* RGButterfly */;
+			targetProxy = 21A197F61E4F832E00686E86 /* PBXContainerItemProxy */;
+		};
+		21A263CB1E4CB105004B075C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210C89661A9F6C440003CC85 /* RGButterfly */;
+			targetProxy = 21A263CA1E4CB105004B075C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		210C89881A9F6C440003CC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_BUILTIN_FUNCTIONS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=0";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StuartPineo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RGButterfly;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		210C89891A9F6C440003CC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=0";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LIBRARY_SEARCH_PATHS = "";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StuartPineo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RGButterfly;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		210C898B1A9F6C440003CC85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
+				ARCHS = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = RGButterfly.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PEWN4D59QB;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StuartPineo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RGButterfly;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = YES;
+			};
+			name = Debug;
+		};
+		210C898C1A9F6C440003CC85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
+				ARCHS = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = RGButterfly.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PEWN4D59QB;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = "same-as-input";
+				INFOPLIST_PREPROCESS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.StuartPineo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = RGButterfly;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USE_HEADERMAP = YES;
+			};
+			name = Release;
+		};
+		21A197F91E4F832E00686E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PEWN4D59QB;
+				INFOPLIST_FILE = RGButterflyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StuartPineo.RGButterflyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RGButterfly;
+			};
+			name = Debug;
+		};
+		21A197FA1E4F832E00686E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PEWN4D59QB;
+				INFOPLIST_FILE = RGButterflyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StuartPineo.RGButterflyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RGButterfly;
+			};
+			name = Release;
+		};
+		21A263CD1E4CB105004B075C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PEWN4D59QB;
+				INFOPLIST_FILE = RGButterflyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StuartPineo.RGButterflyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "../rgbutterfly-tests/RGButterflyTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGButterfly.app/RGButterfly";
+			};
+			name = Debug;
+		};
+		21A263CE1E4CB105004B075C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PEWN4D59QB;
+				INFOPLIST_FILE = RGButterflyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.StuartPineo.RGButterflyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "../rgbutterfly-tests/RGButterflyTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGButterfly.app/RGButterfly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		210C89621A9F6C440003CC85 /* Build configuration list for PBXProject "RGButterfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210C89881A9F6C440003CC85 /* Debug */,
+				210C89891A9F6C440003CC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210C898A1A9F6C440003CC85 /* Build configuration list for PBXNativeTarget "RGButterfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210C898B1A9F6C440003CC85 /* Debug */,
+				210C898C1A9F6C440003CC85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A197F81E4F832E00686E86 /* Build configuration list for PBXNativeTarget "RGButterflyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A197F91E4F832E00686E86 /* Debug */,
+				21A197FA1E4F832E00686E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21A263CC1E4CB105004B075C /* Build configuration list for PBXNativeTarget "RGButterflyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21A263CD1E4CB105004B075C /* Debug */,
+				21A263CE1E4CB105004B075C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		213457671E7DFC7100CB16E9 /* RGButterfly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				213457681E7DFC7100CB16E9 /* AcrylicsColorPicker v4.0.59.xcdatamodel */,
+				213457691E7DFC7100CB16E9 /* AcrylicsColorPicker v4.0.61.xcdatamodel */,
+				2134576A1E7DFC7100CB16E9 /* AcrylicsColorPicker v4.0.63.xcdatamodel */,
+				2134576B1E7DFC7100CB16E9 /* RGButterfly_v4.0.63.xcdatamodel */,
+			);
+			currentVersion = 2134576B1E7DFC7100CB16E9 /* RGButterfly_v4.0.63.xcdatamodel */;
+			path = RGButterfly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 210C895F1A9F6C440003CC85 /* Project object */;
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>RGButterfly 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>RGButterfly.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>RGButterfly.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>UniversalLib.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>210C89661A9F6C440003CC85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>210C897F1A9F6C440003CC85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21334B181E30EEB1007D5B5E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21A197F01E4F832E00686E86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21A263931E4CA0D9004B075C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21A263A31E4CA251004B075C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21A263B61E4CB089004B075C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21A263C41E4CB105004B075C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>21DE32DD1D3BF847007669DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

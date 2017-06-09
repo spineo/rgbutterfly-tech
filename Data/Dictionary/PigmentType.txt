@@ -1,0 +1,12 @@
+Unknown
+Opaque Single Pigment
+Opaque Mixed Pigment
+Translucent Single Pigment
+Translucent Mixed Pigment
+Transparent Single Pigment
+Transparent Mixed Pigment
+Opaque
+Translucent
+Transparent
+Single Pigment
+Mixed Pigment

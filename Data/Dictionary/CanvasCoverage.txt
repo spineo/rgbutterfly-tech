@@ -1,0 +1,6 @@
+Unknown
+Thick
+Medium
+Thin
+Sparse
+Multiple

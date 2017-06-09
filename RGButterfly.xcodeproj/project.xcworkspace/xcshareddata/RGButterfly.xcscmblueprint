@@ -1,0 +1,65 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "35047EEB4BE04F7E1BCA51A2D25A76F6905AEEE1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "506EFAAD1CC7913F5182F448185201A143B570B6" : 9223372036854775807,
+    "6F81867F6D731306FE12BE617BA9F2D8F0F684C6" : 9223372036854775807,
+    "E3680A5C36C225A42A10D2EBF434612831C9E3A8" : 9223372036854775807,
+    "35047EEB4BE04F7E1BCA51A2D25A76F6905AEEE1" : 9223372036854775807,
+    "A400742710406EC3B15A1C3A89C60436E8EF7BB4" : 9223372036854775807,
+    "2B8D9764442E836FFC446563606AA8631FD95924" : 9223372036854775807,
+    "0672E5EACE52B4B411644A3AFA98259B3A9653BD" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F264A266-674C-42E2-9893-7D4587DDE4F9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "506EFAAD1CC7913F5182F448185201A143B570B6" : "databases\/",
+    "6F81867F6D731306FE12BE617BA9F2D8F0F684C6" : "ios-utilities\/",
+    "E3680A5C36C225A42A10D2EBF434612831C9E3A8" : "rgbutterfly-tests\/",
+    "35047EEB4BE04F7E1BCA51A2D25A76F6905AEEE1" : "rgbutterfly\/",
+    "A400742710406EC3B15A1C3A89C60436E8EF7BB4" : "ios-algorithms\/",
+    "2B8D9764442E836FFC446563606AA8631FD95924" : "ios-custom-cells\/",
+    "0672E5EACE52B4B411644A3AFA98259B3A9653BD" : "ios-external-utilities\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RGButterfly",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RGButterfly.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/spineo\/ios-external-utilities.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0672E5EACE52B4B411644A3AFA98259B3A9653BD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/spineo\/ios-custom-cells.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2B8D9764442E836FFC446563606AA8631FD95924"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/spineo\/rgbutterfly.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "35047EEB4BE04F7E1BCA51A2D25A76F6905AEEE1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/spineo\/databases.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "506EFAAD1CC7913F5182F448185201A143B570B6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/spineo\/ios-utilities.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F81867F6D731306FE12BE617BA9F2D8F0F684C6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/spineo\/ios-algorithms.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A400742710406EC3B15A1C3A89C60436E8EF7BB4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/spineo\/rgbutterfly-tests.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E3680A5C36C225A42A10D2EBF434612831C9E3A8"
+    }
+  ]
+}
